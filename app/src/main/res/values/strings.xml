@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MiStock</string>
+
+    <!-- Navegación -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_productos">Productos</string>
+    <string name="nav_clientes">Clientes</string>
+    <string name="nav_reportes">Reportes</string>
+    <string name="nav_alertas">Alertas</string>
+
+    <string name="titulo_inicio">MiStock</string>
+    <string name="titulo_productos">Productos</string>
+    <string name="titulo_clientes">Clientes</string>
+    <string name="titulo_reportes">Reportes</string>
+    <string name="titulo_alertas">Alertas</string>
+    <string name="titulo_producto_form">Nuevo producto</string>
+    <string name="titulo_producto_editar">Editar producto</string>
+    <string name="titulo_producto_detalle">Producto</string>
+    <string name="titulo_nueva_venta">Nueva venta</string>
+    <string name="titulo_venta_detalle">Detalle de la venta</string>
+    <string name="titulo_cliente_detalle">Cliente</string>
+
+    <!-- Botones -->
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_aplicar">Aplicar</string>
+    <string name="btn_cerrar">Cerrar</string>
+    <string name="btn_cerrar_app">Cerrar la app</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_quitar">Quitar</string>
+    <string name="btn_reponer">Reponer</string>
+    <string name="btn_vender">Vender</string>
+    <string name="btn_pagar_todo">Pagar todo</string>
+    <string name="btn_agregar_stock">Agregar</string>
+    <string name="btn_guardar_producto">Guardar producto</string>
+    <string name="btn_eliminar_producto">Eliminar producto</string>
+    <string name="btn_nuevo_producto">Nuevo producto</string>
+    <string name="btn_nuevo_cliente">Nuevo cliente</string>
+    <string name="btn_nueva_venta">Nueva venta</string>
+    <string name="btn_nueva_venta_cliente">Nueva venta para este cliente</string>
+    <string name="btn_registrar_venta">Registrar venta</string>
+    <string name="btn_registrar_abono">Registrar abono</string>
+    <string name="btn_anular_venta">Anular venta</string>
+    <string name="btn_exportar">Guardar respaldo</string>
+    <string name="btn_restaurar">Restaurar</string>
+
+    <!-- Accesibilidad -->
+    <string name="cd_elegir_fecha">Elegir fecha</string>
+    <string name="cd_quitar">Quitar</string>
+    <string name="cd_llamar">Llamar</string>
+    <string name="cd_enviar_correo">Enviar correo</string>
+
+    <!-- Campos -->
+    <string name="hint_nombre_producto">Nombre del producto</string>
+    <string name="hint_categoria">Categoría</string>
+    <string name="hint_linea">Línea (opcional)</string>
+    <string name="hint_marca">Marca (opcional)</string>
+    <string name="hint_precio_real">Precio real (lo que te costó)</string>
+    <string name="hint_precio_venta">Precio de venta</string>
+    <string name="hint_stock">Stock (unidades)</string>
+    <string name="hint_vencimiento">Fecha de vencimiento (opcional)</string>
+    <string name="hint_buscar_producto">Buscar por nombre, marca, línea o código</string>
+    <string name="hint_buscar_cliente">Buscar cliente</string>
+    <string name="hint_nombre_cliente">Nombre</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_notas_cliente">Notas del cliente</string>
+    <string name="hint_cliente">Cliente</string>
+    <string name="hint_cantidad">Cantidad</string>
+    <string name="hint_cantidad_agregar">Cantidad a agregar</string>
+    <string name="hint_precio_unitario">Precio por unidad</string>
+    <string name="hint_monto_abono">Monto del abono</string>
+    <string name="hint_nota_abono">Nota (opcional)</string>
+    <string name="hint_abono_inicial">Abono inicial (puede ser $0)</string>
+    <string name="hint_nota_venta">Notas de la compra (opcional)</string>
+
+    <!-- Formulario de producto -->
+    <string name="form_ganancia_vacia">Ganancia por unidad: se calcula cuando ingreses los dos precios</string>
+    <string name="form_ganancia">Ganancia por unidad: %1$s</string>
+    <string name="form_ayuda_vencimiento">Si el producto no vence (por ejemplo un accesorio), deja la fecha vacía.</string>
+    <string name="err_obligatorio">Este dato es obligatorio</string>
+    <string name="err_elige_categoria">Elige una categoría de la lista</string>
+    <string name="err_precio_venta">Ingresa un precio de venta mayor a $0</string>
+    <string name="err_correo">Ese correo no parece válido</string>
+    <string name="err_cantidad">Ingresa una cantidad mayor a 0</string>
+    <string name="err_cantidad_rango">Debe ser entre 1 y %1$d</string>
+    <string name="err_monto">Ingresa un monto mayor a $0</string>
+    <string name="err_abono_mayor_saldo">El abono no puede ser mayor al saldo (%1$s)</string>
+    <string name="err_abono_mayor_total">El abono no puede ser mayor al total (%1$s)</string>
+    <string name="err_carrito_vacio">Agrega al menos un producto a la venta</string>
+    <string name="err_producto_no_existe">Ese producto ya no existe</string>
+    <string name="err_sin_app">No hay una aplicación para hacer esto en tu teléfono</string>
+    <string name="msg_producto_guardado">Producto guardado</string>
+    <string name="msg_producto_eliminado">Producto eliminado del inventario</string>
+
+    <!-- Código de barras -->
+    <string name="hint_codigo_barras">Código de barras (opcional)</string>
+    <string name="btn_escanear">Escanear código</string>
+    <string name="btn_crear_producto">Crear producto</string>
+    <string name="cd_escanear">Escanear código de barras</string>
+    <string name="codigo_valor">Código %1$s</string>
+    <string name="escaner_error">No se pudo abrir el escáner. Revisa que tengas internet (la primera vez descarga un módulo de Google) e intenta de nuevo.</string>
+    <string name="escaner_opcion_sumar">Sumar stock (llegó mercadería)</string>
+    <string name="escaner_opcion_vender">Vender</string>
+    <string name="escaner_opcion_ficha">Ver ficha</string>
+    <string name="escaner_no_existe_titulo">Producto no encontrado</string>
+    <string name="escaner_no_existe_msg">El código %1$s no está en tu inventario. ¿Quieres crear un producto nuevo con ese código?</string>
+    <string name="escaner_sin_stock">Ese producto no tiene stock para vender.</string>
+    <string name="venta_codigo_no_existe">No tengo ningún producto con ese código. Créalo primero en Productos.</string>
+
+    <!-- Estados y etiquetas de producto -->
+    <string name="sin_detalle">Sin marca ni línea</string>
+    <string name="sin_vencimiento">Sin fecha de vencimiento</string>
+    <string name="lbl_precio_real">Precio real</string>
+    <string name="lbl_precio_venta">Precio de venta</string>
+    <string name="lbl_ganancia_unidad">Ganancia por unidad</string>
+    <string name="lbl_margen">Margen</string>
+    <string name="lbl_stock">Stock disponible</string>
+    <string name="lbl_vencimiento">Vencimiento</string>
+    <string name="estado_agotado">Agotado</string>
+    <string name="estado_stock_bajo">Quedan %1$d</string>
+    <string name="estado_stock">%1$d en stock</string>
+    <string name="estado_stock_ok">Stock suficiente</string>
+    <string name="eliminar_producto_titulo">¿Eliminar este producto?</string>
+    <string name="eliminar_producto_msg">«%1$s» se quita del inventario. Las ventas ya registradas se mantienen en el historial.</string>
+    <plurals name="productos_resumen">
+        <item quantity="one">%1$d producto</item>
+        <item quantity="other">%1$d productos</item>
+    </plurals>
+    <string name="productos_vacio">Aún no tienes productos.\nToca «Nuevo producto» para agregar el primero.</string>
+    <string name="productos_sin_resultados">No encontré productos con ese filtro.</string>
+    <string name="chip_todas">Todas</string>
+    <string name="chip_todos">Todos</string>
+    <string name="chip_con_deuda">Con deuda</string>
+
+    <!-- Reponer -->
+    <string name="reponer_titulo">Reponer stock</string>
+    <string name="reponer_producto">%1$s\nStock actual: %2$d</string>
+    <string name="msg_stock_actualizado">Listo, ahora tienes %1$d en stock</string>
+
+    <!-- Inicio -->
+    <string name="inicio_saludo">¡Hola! 🌸</string>
+    <string name="inicio_ganancia_mes">Ganancia del mes</string>
+    <string name="inicio_ventas_mes">Vendido en el mes</string>
+    <string name="inicio_por_cobrar">Por cobrar</string>
+    <string name="inicio_productos">Productos</string>
+    <string name="inicio_inventario">Valor del inventario</string>
+    <string name="inicio_valor_costo">A precio real</string>
+    <string name="inicio_valor_venta">A precio de venta</string>
+    <string name="inicio_alertas_titulo">Tienes alertas pendientes</string>
+    <string name="inicio_alertas_texto">%1$d con stock bajo · %2$d por vencer o vencidos</string>
+    <string name="inicio_acciones">Accesos rápidos</string>
+    <string name="respaldo_titulo">Respaldo de tus datos</string>
+    <string name="respaldo_descripcion">Guarda una copia de todo (productos, clientes y ventas) en tu teléfono o en Drive. Hazlo de vez en cuando por seguridad.</string>
+    <string name="respaldo_exportado">Respaldo guardado correctamente</string>
+    <string name="respaldo_restaurar_titulo">Restaurar respaldo</string>
+    <string name="respaldo_restaurar_msg">Se reemplazarán TODOS los datos actuales por los del respaldo. Esta acción no se puede deshacer. ¿Quieres continuar?</string>
+    <string name="respaldo_restaurado_msg">Respaldo restaurado. Para ver los datos nuevos, la app se cerrará; ábrela de nuevo.</string>
+
+    <!-- Clientes -->
+    <string name="clientes_total_por_cobrar">Total por cobrar</string>
+    <string name="clientes_vacio">Aún no tienes clientes.\nToca «Nuevo cliente» para agregar el primero.</string>
+    <string name="clientes_nadie_debe">¡Nadie te debe nada! 🎉</string>
+    <string name="clientes_sin_resultados">No encontré clientes con ese filtro.</string>
+    <string name="cliente_nuevo">Nuevo cliente</string>
+    <string name="cliente_editar">Editar cliente</string>
+    <string name="cliente_compras">%1$d compras</string>
+    <string name="cliente_sin_compras">Todavía no tiene compras registradas.</string>
+    <string name="sin_telefono">Sin teléfono</string>
+    <string name="sin_correo">Sin correo</string>
+    <string name="lbl_debe_actualmente">Debe actualmente</string>
+    <string name="lbl_compras">Compras</string>
+    <string name="estado_debe">Debe %1$s</string>
+    <string name="estado_al_dia">Al día</string>
+    <string name="msg_cliente_guardado">Cliente guardado</string>
+    <string name="msg_cliente_eliminado">Cliente eliminado</string>
+    <string name="eliminar_cliente_titulo">¿Eliminar este cliente?</string>
+    <string name="eliminar_cliente_msg">Se eliminará a %1$s. Sus compras pasan a verse como ventas sin cliente. Solo se puede eliminar si no tiene saldo pendiente.</string>
+
+    <!-- Nueva venta -->
+    <string name="venta_paso_cliente">1. ¿Quién compra?</string>
+    <string name="venta_paso_productos">2. Productos</string>
+    <string name="venta_paso_pago">3. Pago</string>
+    <string name="venta_directa">Venta directa</string>
+    <string name="venta_directa_opcion">Venta directa (sin cliente)</string>
+    <string name="venta_carrito_vacio">Aún no agregas productos.</string>
+    <string name="venta_agregar_producto">Agregar producto</string>
+    <string name="venta_ayuda_editar">Toca un producto de la lista para cambiar la cantidad o el precio.</string>
+    <string name="venta_sin_productos_disponibles">No tienes productos con stock para vender.</string>
+    <string name="venta_sin_mas_stock">No queda más stock de ese producto.</string>
+    <string name="venta_sin_cliente">Para dejar saldo pendiente debes elegir un cliente.</string>
+    <string name="venta_total">Total</string>
+    <string name="venta_pago_contado">Pagó todo</string>
+    <string name="venta_pago_fiado">Queda debiendo</string>
+    <string name="venta_pago_completo">Se registra como pagada completa. El stock se descuenta al guardar.</string>
+    <string name="venta_saldo_preview">Saldo pendiente: %1$s</string>
+    <string name="linea_titulo">Editar producto de la venta</string>
+    <string name="linea_disponible">Disponible: %1$d</string>
+    <string name="linea_detalle">%1$d × %2$s</string>
+    <string name="msg_venta_registrada">Venta registrada y stock actualizado</string>
+
+    <!-- Detalle de venta -->
+    <string name="lbl_notas_compra">Notas de la compra</string>
+    <string name="lbl_productos_venta">Productos</string>
+    <string name="lbl_abonado">Abonado</string>
+    <string name="lbl_saldo_pendiente">Saldo pendiente</string>
+    <string name="lbl_ganancia_venta">Ganancia de esta venta</string>
+    <string name="lbl_abonos">Abonos</string>
+    <string name="venta_sin_abonos">Todavía no hay pagos registrados.</string>
+    <string name="estado_pendiente">Pendiente</string>
+    <string name="estado_pagada">Pagada</string>
+    <string name="estado_saldo">Saldo %1$s</string>
+    <string name="anular_venta_titulo">¿Anular esta venta?</string>
+    <string name="anular_venta_msg">Se borra la venta con sus abonos y los productos vuelven al stock. No se puede deshacer.</string>
+    <string name="msg_venta_anulada">Venta anulada y stock devuelto</string>
+
+    <!-- Abonos -->
+    <string name="abono_titulo">Registrar abono</string>
+    <string name="abono_saldo_actual">Saldo pendiente: %1$s</string>
+    <string name="msg_abono_registrado">Abono registrado. Saldo restante: %1$s</string>
+    <string name="msg_venta_finalizada">¡Pago completo! La venta quedó finalizada 🎉</string>
+
+    <!-- Reportes -->
+    <string name="periodo_hoy">Hoy</string>
+    <string name="periodo_semana">7 días</string>
+    <string name="periodo_mes">Este mes</string>
+    <string name="periodo_todo">Todo</string>
+    <string name="rep_ganancia">Ganancia del período</string>
+    <string name="rep_margen">Margen: %1$d%%</string>
+    <string name="rep_ventas">Vendido</string>
+    <string name="rep_costo">Costo de lo vendido</string>
+    <string name="rep_cobrado">Cobrado</string>
+    <string name="rep_por_cobrar">Por cobrar</string>
+    <string name="rep_unidades">Unidades vendidas</string>
+    <string name="rep_nota_ganancia">La ganancia es lo vendido menos lo que te costó, aunque una parte aún esté por cobrar.</string>
+    <string name="rep_mas_vendidos">Más vendidos</string>
+    <string name="rep_sin_ventas">No hay ventas en este período.</string>
+    <string name="rep_top_titulo">%1$d. %2$s</string>
+    <string name="rep_top_unidades">%1$d unidades</string>
+    <string name="rep_historial">Historial de ventas</string>
+
+    <!-- Alertas -->
+    <string name="alertas_vacio">Todo en orden ✨\nNo tienes productos con stock bajo ni por vencer.</string>
+    <string name="alertas_seccion_stock">Stock bajo — volver a comprar (%1$d)</string>
+    <string name="alertas_seccion_vencimiento">Por vencer o vencidos (%1$d)</string>
+    <string name="alertas_quedan">Quedan %1$d</string>
+
+    <!-- Notificaciones -->
+    <string name="canal_alertas_nombre">Alertas de stock y vencimiento</string>
+    <string name="canal_alertas_descripcion">Avisos cuando te quedan pocas unidades o un producto está por vencer</string>
+    <string name="notif_agotado_titulo">Producto agotado</string>
+    <string name="notif_agotado_texto">Se agotó %1$s. ¡Hora de volver a comprar!</string>
+    <string name="notif_stock_bajo_titulo">Stock bajo</string>
+    <string name="notif_queda_una">Te queda 1 unidad de %1$s</string>
+    <string name="notif_quedan">Te quedan %1$d unidades de %2$s</string>
+    <string name="notif_resumen_stock_titulo">%1$d productos con stock bajo</string>
+    <string name="notif_resumen_vencimiento_titulo">%1$d productos por vencer</string>
+    <string name="notif_y_mas">" y %1$d más"</string>
+    <string name="notif_linea_stock">%1$s: quedan %2$d</string>
+    <string name="notif_linea_vencimiento">%1$s: %2$s</string>
+
+</resources>

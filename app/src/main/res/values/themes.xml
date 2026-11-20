@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MiStock" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/rosa_primario</item>
+        <item name="colorOnPrimary">@color/rosa_sobre_primario</item>
+        <item name="colorPrimaryContainer">@color/rosa_contenedor</item>
+        <item name="colorOnPrimaryContainer">@color/rosa_sobre_contenedor</item>
+
+        <item name="colorSecondary">@color/malva_secundario</item>
+        <item name="colorOnSecondary">@color/malva_sobre_secundario</item>
+        <item name="colorSecondaryContainer">@color/malva_contenedor</item>
+        <item name="colorOnSecondaryContainer">@color/malva_sobre_contenedor</item>
+
+        <item name="colorTertiary">@color/dorado_terciario</item>
+        <item name="colorOnTertiary">@color/dorado_sobre_terciario</item>
+        <item name="colorTertiaryContainer">@color/dorado_contenedor</item>
+        <item name="colorOnTertiaryContainer">@color/dorado_sobre_contenedor</item>
+
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/sobre_error</item>
+        <item name="colorErrorContainer">@color/error_contenedor</item>
+        <item name="colorOnErrorContainer">@color/sobre_error_contenedor</item>
+
+        <item name="android:colorBackground">@color/fondo</item>
+        <item name="colorOnBackground">@color/sobre_superficie</item>
+        <item name="colorSurface">@color/superficie</item>
+        <item name="colorOnSurface">@color/sobre_superficie</item>
+        <item name="colorSurfaceVariant">@color/superficie_variante</item>
+        <item name="colorOnSurfaceVariant">@color/sobre_superficie_variante</item>
+        <item name="colorOutline">@color/contorno</item>
+
+        <item name="android:statusBarColor">@color/superficie</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>

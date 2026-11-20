@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <!-- Pestañas principales (barra inferior) -->
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.mistock.ui.InicioFragment"
+        android:label="@string/titulo_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/productosFragment"
+        android:name="com.example.mistock.ui.ProductosFragment"
+        android:label="@string/titulo_productos"
+        tools:layout="@layout/fragment_productos" />
+
+    <fragment
+        android:id="@+id/clientesFragment"
+        android:name="com.example.mistock.ui.ClientesFragment"
+        android:label="@string/titulo_clientes"
+        tools:layout="@layout/fragment_clientes" />
+
+    <fragment
+        android:id="@+id/reportesFragment"
+        android:name="com.example.mistock.ui.ReportesFragment"
+        android:label="@string/titulo_reportes"
+        tools:layout="@layout/fragment_reportes" />
+
+    <fragment
+        android:id="@+id/alertasFragment"
+        android:name="com.example.mistock.ui.AlertasFragment"
+        android:label="@string/titulo_alertas"
+        tools:layout="@layout/fragment_alertas" />
+
+    <!-- Pantallas secundarias -->
+    <fragment
+        android:id="@+id/productoFormFragment"
+        android:name="com.example.mistock.ui.ProductoFormFragment"
+        android:label="@string/titulo_producto_form"
+        tools:layout="@layout/fragment_producto_form">
+        <argument
+            android:name="productoId"
+            android:defaultValue="0L"
+            app:argType="long" />
+        <argument
+            android:name="codigo"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productoDetalleFragment"
+        android:name="com.example.mistock.ui.ProductoDetalleFragment"
+        android:label="@string/titulo_producto_detalle"
+        tools:layout="@layout/fragment_producto_detalle">
+        <argument
+            android:name="productoId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nuevaVentaFragment"
+        android:name="com.example.mistock.ui.NuevaVentaFragment"
+        android:label="@string/titulo_nueva_venta"
+        tools:layout="@layout/fragment_nueva_venta">
+        <argument
+            android:name="clienteId"
+            android:defaultValue="0L"
+            app:argType="long" />
+        <argument
+            android:name="productoId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ventaDetalleFragment"
+        android:name="com.example.mistock.ui.VentaDetalleFragment"
+        android:label="@string/titulo_venta_detalle"
+        tools:layout="@layout/fragment_venta_detalle">
+        <argument
+            android:name="ventaId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/clienteDetalleFragment"
+        android:name="com.example.mistock.ui.ClienteDetalleFragment"
+        android:label="@string/titulo_cliente_detalle"
+        tools:layout="@layout/fragment_cliente_detalle">
+        <argument
+            android:name="clienteId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+
+</navigation>

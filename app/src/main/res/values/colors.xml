@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta MiStock: rosa profundo + malva + dorado suave -->
+    <color name="rosa_primario">#A63A6B</color>
+    <color name="rosa_sobre_primario">#FFFFFF</color>
+    <color name="rosa_contenedor">#FFD9E5</color>
+    <color name="rosa_sobre_contenedor">#3E0521</color>
+
+    <color name="malva_secundario">#7A5468</color>
+    <color name="malva_sobre_secundario">#FFFFFF</color>
+    <color name="malva_contenedor">#F6DCE9</color>
+    <color name="malva_sobre_contenedor">#2E1226</color>
+
+    <color name="dorado_terciario">#7D5800</color>
+    <color name="dorado_sobre_terciario">#FFFFFF</color>
+    <color name="dorado_contenedor">#FFDEA3</color>
+    <color name="dorado_sobre_contenedor">#271900</color>
+
+    <color name="fondo">#FFF8F9</color>
+    <color name="superficie">#FFFFFF</color>
+    <color name="superficie_variante">#F4DDE5</color>
+    <color name="superficie_nav">#FBEFF3</color>
+    <color name="sobre_superficie">#201A1C</color>
+    <color name="sobre_superficie_variante">#514347</color>
+    <color name="contorno">#837377</color>
+    <color name="contorno_suave">#EBD7DE</color>
+    <color name="tarjeta">#FFFFFF</color>
+
+    <color name="error">#BA1A1A</color>
+    <color name="sobre_error">#FFFFFF</color>
+    <color name="error_contenedor">#FFDAD6</color>
+    <color name="sobre_error_contenedor">#410002</color>
+
+    <!-- Insignias de estado -->
+    <color name="verde_texto">#1B5E20</color>
+    <color name="verde_fondo">#E1F3E2</color>
+    <color name="ambar_texto">#7A4A00</color>
+    <color name="ambar_fondo">#FFEBC8</color>
+    <color name="rojo_texto">#93000A</color>
+    <color name="rojo_fondo">#FFDAD6</color>
+    <color name="neutro_texto">#514347</color>
+    <color name="neutro_fondo">#F4EAEE</color>
+
+    <color name="launcher_fondo">#A63A6B</color>
+</resources>
